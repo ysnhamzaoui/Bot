@@ -11,7 +11,7 @@ namespace OuiBot
     [Serializable]
     public class HotelsQuery
     {
-        [Prompt("Vous cherchez un hotêl dans quelle ville {&}")]
+        [Prompt("Vous cherchez un hotêl dans quelle {&}")]
         public string Ville { get; set; }
 
         [Prompt("Pour quelle date {&}?")]
